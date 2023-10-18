@@ -34,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D9219F6B2AE005C300B422B2 /* bar-implementation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "bar-implementation-Info.plist"; sourceTree = SOURCE_ROOT; };
 		D9562EBE2AE0033200C1CCC3 /* bar_implementation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bar_implementation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9562EC12AE0033200C1CCC3 /* bar_implementationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bar_implementationApp.swift; sourceTree = "<group>"; };
 		D9562EC32AE0033200C1CCC3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -94,6 +95,7 @@
 		D9562EC02AE0033200C1CCC3 /* bar_implementation */ = {
 			isa = PBXGroup;
 			children = (
+				D9219F6B2AE005C300B422B2 /* bar-implementation-Info.plist */,
 				D9562EC12AE0033200C1CCC3 /* bar_implementationApp.swift */,
 				D9562EC32AE0033200C1CCC3 /* ContentView.swift */,
 				D9562EC52AE0033300C1CCC3 /* Assets.xcassets */,
@@ -425,11 +427,13 @@
 				DEVELOPMENT_TEAM = 8KQDNNV2H5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "bar-implementation-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,11 +458,13 @@
 				DEVELOPMENT_TEAM = 8KQDNNV2H5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "bar-implementation-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
